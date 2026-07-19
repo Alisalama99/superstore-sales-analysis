@@ -2,47 +2,47 @@
 
 ## Overview
 
-This project presents an exploratory business analysis of the Sample Superstore dataset using Python.
+This project presents an exploratory data analysis (EDA) of the Sample Superstore dataset using Python.
 
-The objective is to examine sales performance, profitability, customer behavior, and regional trends, then translate the findings into practical business recommendations.
+The objective is to analyze sales performance, profitability, customer behavior, and regional trends, and translate the findings into actionable business insights.
 
 ---
 
 ## Business Problem
 
-Retail businesses collect large amounts of transactional data, but the data must be analyzed before it can support decision-making.
-
-This project explores which products, categories, customer segments, and regions contribute the most to sales and profit.
+Retail companies generate large volumes of transactional data. Analyzing this data helps identify profitable products, understand customer purchasing patterns, evaluate regional performance, and support data-driven business decisions.
 
 ---
 
 ## Objectives
 
 - Clean and prepare the dataset for analysis
-- Calculate key sales and profit indicators
-- Analyze product and category performance
-- Examine customer purchasing behavior
+- Explore sales and profit performance
+- Analyze product categories and sub-categories
+- Examine customer segments
 - Compare regional performance
-- Provide actionable business recommendations
+- Identify business opportunities through data analysis
 
 ---
 
 ## Dataset
 
-This project uses the **Sample Superstore** dataset, which contains retail transaction information such as:
+This project uses the **Sample Superstore** dataset, a public dataset widely used for learning and demonstrating business analytics and data visualization techniques.
 
-- Order details
-- Customer information
-- Product categories
+The dataset includes:
+
+- Orders
+- Customers
+- Products
 - Sales
 - Profit
 - Discounts
 - Shipping information
 - Geographic regions
 
-The dataset was not created by the author of this project and is used for educational and portfolio purposes.
+This dataset is **not owned or created by the author** and is used for educational and portfolio purposes.
 
-**Dataset source:** Add the original dataset link here
+**Source:** https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 ---
 
@@ -57,34 +57,33 @@ The dataset was not created by the author of this project and is used for educat
 
 ## Project Workflow
 
-1. Business Understanding
-2. Data Understanding
-3. Data Cleaning
-4. KPI Analysis
-5. Sales Analysis
-6. Profit Analysis
-7. Customer Analysis
-8. Regional Analysis
-9. Executive Summary
-10. Business Recommendations
+1. Data Loading
+2. Data Cleaning
+3. Exploratory Data Analysis (EDA)
+4. Sales Analysis
+5. Profit Analysis
+6. Customer Analysis
+7. Regional Analysis
+8. Business Insights
+9. Business Recommendations
 
 ---
 
 ## Key Findings
 
-- Sales and profitability varied across regions and product categories.
-- Some products generated strong sales but relatively weak profit.
-- Customer segments showed different purchasing patterns.
-- Regional analysis identified both strong-performing and lower-performing markets.
+- Sales and profitability varied across product categories and regions.
+- Some products generated high sales but relatively low profit.
+- Customer segments exhibited different purchasing behaviors.
+- Regional analysis highlighted both high-performing and underperforming markets.
 
 ---
 
 ## Business Recommendations
 
-- Focus marketing efforts on high-performing regions and customer segments.
-- Review products with high sales but low profitability.
-- Improve pricing and discount strategies where profit margins are weak.
-- Use regional performance insights to guide inventory and sales planning.
+- Prioritize investment in high-performing regions and customer segments.
+- Reassess pricing and discount strategies for products with low profit margins.
+- Focus inventory planning on profitable product categories.
+- Use regional performance insights to optimize sales strategies.
 
 ---
 
@@ -94,20 +93,22 @@ The dataset was not created by the author of this project and is used for educat
 superstore-sales-analysis/
 │
 ├── README.md
-├── Superstore_Sales_Analysis.ipynb
-├── Sample - Superstore.csv
+├── requirements.txt
 ├── LICENSE
-└── .gitignore
+├── .gitignore
+├── Superstore_Sales_Analysis.ipynb
+└── data/
+    └── Sample_Superstore.csv
 ```
 
 ---
 
 ## Future Improvements
 
-- Create an interactive Power BI dashboard
+- Build an interactive Power BI dashboard
 - Perform customer segmentation
-- Add sales forecasting
-- Expand the analysis with additional business metrics
+- Develop predictive sales forecasting models
+- Expand the analysis with additional business KPIs
 
 ---
 
